@@ -44,10 +44,8 @@ public class UniversityHostelAllocation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input Line 1: Ravi, 101, CSE
         String[] s = sc.nextLine().trim().split(",\\s*");
 
-        // Input Line 2: A101, Block-B, Single
         String[] r = sc.nextLine().trim().split(",\\s*");
 
         Room room = new Room(r[0], r[1], r[2]);
