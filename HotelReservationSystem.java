@@ -49,7 +49,6 @@ public class HotelReservationSystem{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input Line 1: R101, Deluxe, 2
         String[] r = sc.nextLine().trim().split(",\\s*");
         String resId = r[0];
         String roomType = r[1];
