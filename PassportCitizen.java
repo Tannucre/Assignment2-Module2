@@ -40,10 +40,10 @@ public class PassportCitizen {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input Line 1: Ravi, 01-01-1990, Delhi
+        
         String[] c = sc.nextLine().trim().split(",\\s*");
 
-        // Input Line 2: P123456, 01-01-2020, 01-01-2030
+        
         String[] p = sc.nextLine().trim().split(",\\s*");
 
         Passport passport = new Passport(p[0], p[1], p[2]);
