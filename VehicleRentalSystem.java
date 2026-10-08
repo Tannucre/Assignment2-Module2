@@ -52,9 +52,6 @@ public class VehicleRentalSystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Reads lines like:
-        // Car, KA01AA1234, Toyota, 1000
-        // Bike, KA05BB6789, Honda, 500
         while (sc.hasNextLine()) {
             String line = sc.nextLine().trim();
             if (line.isEmpty()) continue;
